@@ -1,0 +1,98 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+#footerLogo  {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p {
+    text-align: center;
+    line-height: 0.5;
+}
+main{
+    height: 500px;
+}
+footer , header{
+
+   align-items: center;
+
+}
+header{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 70px auto 250px ;
+}
+header #headerLogo{
+margin-top: 10px;
+height: 60px;
+}
+h1{
+    color: #222;
+    font-family: 'Pacifico', cursive; 
+    font-style: italic;
+    text-align: left;
+    font-size: 30px;
+}
+main h1 , h6{
+    line-height:1;
+    text-align: left;
+    padding: 5;
+    margin: 5px;    
+}
+
+ h6{
+    color: darkgray;
+    font-size: 15px;
+   font-family: 'Roboto', sans-serif;
+
+}
+.divide{
+    font-size: small;
+}
+
+header h1 , h6{
+    margin: 0px;
+}
+.Divide{
+    background-image: url('../img/hr-img.png');
+    background-repeat: repeat; 
+    margin: auto;
+    width:100%;
+    height: 10px;
+}
+.firstSec{
+display: grid;
+grid-template-columns: auto 20px;
+align-items: center;
+margin : 30px 0px;
+}
+header section:last-child img:nth-child(6){
+    padding-right: 10px;
+}
+header section:last-child img{
+    display: inline-block;
+    margin-right: 0px;
+    padding: 0;
+}
+.bodyImage{
+    margin: 10px ;
+    width: 100%;
+    height: 600px;
+}
+.noteDiv{
+    background-image: url('../img/list-bg.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 0.5;
+}
+.noteDiv label{
+  width: 30%;
+}
